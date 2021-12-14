@@ -22,3 +22,6 @@ You'll need to install
 - zsh-autosuggestions
 
 Note: the starship prompt requires nerd-fonts... and starship. https://starship.rs/guide/#%F0%9F%9A%80-installation
+
+
+to install all dependencies, run ```brew install font-blex-mono-nerd-font font-fira-mono-nerd-font font-hack-nerd-font starship zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting fzf exa```

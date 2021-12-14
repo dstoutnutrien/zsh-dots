@@ -1,0 +1,1 @@
+brew install font-blex-mono-nerd-font font-fira-mono-nerd-font font-hack-nerd-font starship zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting fzf exa

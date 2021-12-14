@@ -216,3 +216,6 @@ export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.gem/ruby/2.7.0/bin"
 export PATH="$PATH:/opt/yarn-1.22.10/bin"
 export PATH="$PATH:$HOME/.dotnet/tools"export PATH=~/bin:$PATH
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/.aliases

@@ -1,0 +1,5 @@
+alias gpcb='git push -u origin $(git rev-parse --abbrev-ref HEAD)'
+alias ls='exa --long --header --icons --git --group-directories-first --sort=name --all'
+alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
+
+killport() { lsof -i TCP:$1 | grep LISTEN | awk '{print $2}' | xargs kill -9 }
